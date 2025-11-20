@@ -18,10 +18,7 @@ img{
     background-position: top right;
 }
 
-@font-face {
-    font-family: "Rachel Brown";
-    src: url('../fonts/RachelBrown.woff');
-}
+
 
 h1{
     display: flex;
@@ -31,12 +28,15 @@ h1{
   color: red
 }
 
+  
+
+
 h2{
     color: white
 }
 
 section{
-    height: 900px;
+    height: 850px;
     border: solid black;
     display: flex;
     flex-direction: row;
@@ -57,3 +57,17 @@ ul{
     color: grey;
 }
 
+footer{
+    color: aqua;
+    background-image:  url('../image/instagram.png'), url('../image/github.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: top left, top right ;
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Lato" "Raleway";
+    src: url('../fonts/Lato-Regular.woff'), url('../fonts/Raleway-BoldItalic_1.woff');
+}
