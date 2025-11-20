@@ -1,5 +1,6 @@
 body{
     background: url('../image/images.jpg') fixed no-repeat top left / cover;
+    background-repeat: no-repeat;
 }
 
 figure{
